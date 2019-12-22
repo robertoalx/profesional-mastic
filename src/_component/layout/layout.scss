@@ -1,3 +1,5 @@
+@import 'roboto-font';
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +11,11 @@ html {
   // height: 100%;
   background-color: #000;
   color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  padding-bottom: 80px;
 }
 
 .content {
@@ -23,4 +30,22 @@ html {
 
 .column[span="row"] {
   grid-column: 1/-1;
+}
+
+.column[height="30"] {
+  height: 30px;
+}
+
+.column[height="30-hr"] {
+  height: 30px;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    border-top: 1px solid #707070;
+  }
 }
