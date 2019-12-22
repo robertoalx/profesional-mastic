@@ -1,0 +1,15 @@
+.home {
+  height: 100vh;
+  position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -37px;
+    left: -37px;
+    background-image: url(asset/image/glass-stairs.jpg);
+    background-size: cover;
+  }
+}
