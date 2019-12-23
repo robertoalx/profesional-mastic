@@ -1,0 +1,34 @@
+{
+  "project": [
+    {
+      "src": "/asset/image/project/135-bishopgate.jpg",
+      "title": "135 Bishopgate"
+    },
+    {
+      "src": "/asset/image/project/nova-victoria-building.jpg",
+      "title": "Nova Victoria Building"
+    },
+    {
+      "src": "/asset/image/project/135-bishopgate.jpg",
+      "title": "135 Bishopgate"
+    }
+  ],
+  "product": [
+    {
+      "src": "/asset/image/product/Arbo produc.jpg",
+      "title": "135 Bishopgate"
+    },
+    {
+      "src": "/asset/image/product/fosroc product.jpg",
+      "title": "Nova Victoria Building"
+    },
+    {
+      "src": "/asset/image/product/geocel product.jpg",
+      "title": "135 Bishopgate"
+    },
+    {
+      "src": "/asset/image/product/sika product.jpg",
+      "title": "135 Bishopgate"
+    }
+  ]
+}
