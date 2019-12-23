@@ -15,17 +15,21 @@
 
 .column(span="row")
   h2.sub-title Projects
-
-.column(span="row")
-  img(src="/asset/image/project/135-bishopgate.jpg", alt="")
-.column(span="row" height="30")
-.column(span="row")
-  h3.link-title Nova Victoria Building
-.column(span="row" height="30")
-
 .column(span="row" height="30-hr")
+
+each project in data.home.project
+  .column(span="row")
+    img(src=project.src, alt="")
+  .column(span="row" height="30")
+  .column(span="row")
+    h3.link-title=project.title
+  .column(span="row" height="30")
 
 .column(span="row")
   h2.sub-title Products
 
-.column(span="row" height="30-hr")
+each product in data.home.product
+  .column(span="row")
+    img(src=product.src, alt="")
+
+.column(span="row" height="30-hr-6")

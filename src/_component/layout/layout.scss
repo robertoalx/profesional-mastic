@@ -36,7 +36,8 @@ body {
   height: 30px;
 }
 
-.column[height="30-hr"] {
+.column[height="30-hr"],
+.column[height="30-hr-6"] {
   height: 30px;
   position: relative;
 
@@ -46,6 +47,17 @@ body {
     left: 0;
     right: 0;
     top: 50%;
+  }
+}
+
+.column[height="30-hr"] {
+  &::after {
     border-top: 1px solid #707070;
+  }
+}
+
+.column[height="30-hr-6"] {
+  &::after {
+    border-top: 6px solid #fff;
   }
 }

@@ -1,0 +1,24 @@
+{
+  "socialList": [
+    {
+      "icon": "facebook",
+      "link": "https://facebook.com/codetap"
+    },
+    {
+      "icon": "linkedin",
+      "link": "https://facebook.com/codetap"
+    },
+    {
+      "icon": "tumblr",
+      "link": "https://facebook.com/codetap"
+    },
+    {
+      "icon": "twitter",
+      "link": "https://facebook.com/codetap"
+    },
+    {
+      "icon": "instagram",
+      "link": "https://facebook.com/codetap"
+    }
+  ]
+}
