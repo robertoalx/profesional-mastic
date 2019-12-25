@@ -20,7 +20,7 @@
   },
   "config": {
     "customUrl": "http://pug-starter.codetap.io",
-    "githubUrl": "http://github.com/marianzburlea/pug-starter.git",
+    "githubUrl": "http://github.com/codetapacademy/my-first-client-with-robert-and-marian.git",
     "deployToGithubIo": true,
     "directory": {
       "development": "tmp",
