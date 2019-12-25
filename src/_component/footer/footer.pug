@@ -1,0 +1,5 @@
+.column(span="row")
+  .footer-social
+    each social in data.footer.socialList
+      a.menu__disc(href=social.link)
+        i(class=`icon__${social.icon}`)

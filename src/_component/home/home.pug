@@ -1,0 +1,35 @@
+.column(span="row")
+  .home
+
+.column(span="row" height="30")
+
+.column(span="row")
+  h2.sub-title Why Us?
+
+.column(span="row" height="30-hr")
+.column(span="row")
+  .description-box-shadow
+    p.description-text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatibus. Placeat, ratione soluta dignissimos ipsum ad deserunt recusandae neque tempore tenetur, molestias quia nihil consectetur quaerat cum dolorum, eveniet sed.
+    p.description-text Iste molestias odio harum ipsam nam beatae corporis, aperiam tenetur voluptas, molestiae praesentium! Aspernatur, inventore perspiciatis voluptatem veniam distinctio placeat pariatur nostrum consequuntur doloribus soluta exercitationem, a deserunt enim ea.
+.column(span="row" height="30")
+
+.column(span="row")
+  h2.sub-title Projects
+.column(span="row" height="30-hr")
+
+each project in data.home.project
+  .column(span="row")
+    img(src=project.src, alt="")
+  .column(span="row" height="30")
+  .column(span="row")
+    h3.link-title=project.title
+  .column(span="row" height="30")
+
+.column(span="row")
+  h2.sub-title Products
+
+each product in data.home.product
+  .column(span="row")
+    img(src=product.src, alt="")
+
+.column(span="row" height="30-hr-6")
