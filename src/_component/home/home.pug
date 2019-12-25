@@ -19,7 +19,7 @@
 
 each project in data.home.project
   .column(span="row")
-    img(src=project.src, alt="")
+    img(src=`${baseUrl}${project.src}`, alt=project.title)
   .column(span="row" height="30")
   .column(span="row")
     h3.link-title=project.title
@@ -30,6 +30,6 @@ each project in data.home.project
 
 each product in data.home.product
   .column(span="row")
-    img(src=product.src, alt="")
+    img(src=`${baseUrl}${product.src}`, alt=product.title)
 
 .column(span="row" height="30-hr-6")
