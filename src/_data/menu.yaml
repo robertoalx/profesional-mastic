@@ -1,5 +1,10 @@
-- Home
-- About
-- Projects
-- Photos
-- Contact
+- label: Home
+  link: ''
+- label: "About me"
+  link: about
+- label: Projects
+  link: projects
+- label: Photos
+  link: photos
+- label: Contact
+  link: contact
