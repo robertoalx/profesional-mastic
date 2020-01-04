@@ -19,10 +19,35 @@ block content
     h2.sub-title=pageInfo.title
   .column(span="row" height="30-hr")
 
-  each image in pageInfo.imageList
+  each image, niceIndex in pageInfo.imageList
     .column(span="row")
-      label(href=image)
+      label(for=`big-monster-id-${niceIndex}`)
         img(src=`${baseUrl}${image}`)
+  input(
+    type="radio"
+    name="big-monster"
+    id=`big-monster-id-close`
+    checked
+  )
+  div.column(span="row" height="30") Anything there
+  each image, niceIndex in pageInfo.imageList
+    input(
+      type="radio"
+      name="big-monster"
+      class="big-monster"
+      id=`big-monster-id-${niceIndex}` 
+    )
+  .image-slider__wrapper
+    label(for=`big-monster-id-close`).menu__disc
+      .icon__cross
+    .image-slider__list
+      each image, niceIndex in pageInfo.imageList
+        .image-slider__image(style=`background-image: url(${baseUrl}${image})`)
+    .image-slider__list--small
+      each image, niceIndex in pageInfo.imageList
+        label(for=`big-monster-id-${niceIndex}`).image-slider__image--small(style=`background-image: url(${baseUrl}${image})`)
+    h2.sub-title=pageInfo.title
+
   .column(span="row" height="30-hr")
   .column(span="row")
     .description-box-shadow
