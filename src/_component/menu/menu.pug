@@ -1,4 +1,12 @@
 .menu
   h1.menu__title Professional Mastic Appliers
-  button.menu__disc
+  input(type="checkbox" id="menu")
+  label(for="menu").menu__disc
     .icon__menu
+    .icon__cross
+  .menu__list
+    each item in data.menu
+      a(
+        href=`${baseUrl}${item.link}`
+        title=item.label
+      ).menu__item=item.label
