@@ -78,11 +78,11 @@ input[name="big-monster"] {
 }
 
 @for $var from 1 to 6 {
-  .big-monster:checked:nth-of-type(#{$var}) ~ .image-slider__wrapper .image-slider__list .image-slider__image:nth-child(#{$var - 1}) {
+  .big-monster:checked:nth-of-type(#{$var}) ~ .image-slider__wrapper .image-slider__list .image-slider__image:nth-child(#{$var}) {
     display: block;
   }
 
-  .big-monster:checked:nth-of-type(#{$var}) ~ .image-slider__wrapper .image-slider__list--small .image-slider__image--small:nth-child(#{$var - 1}) {
+  .big-monster:checked:nth-of-type(#{$var}) ~ .image-slider__wrapper .image-slider__list--small .image-slider__image--small:nth-child(#{$var}) {
     &::after {
       background-color: transparent;
     }

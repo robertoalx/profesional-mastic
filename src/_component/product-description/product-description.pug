@@ -1,0 +1,42 @@
+.column(span="row")
+  .project
+
+.column(span="row" height="30")
+.column(span="row")
+  h2.sub-title=pageInfo.title
+.column(span="row" height="30-hr")
+
+each image, niceIndex in pageInfo.imageList
+  .column(span="row")
+    label(for=`big-monster-id-${niceIndex}`)
+      img(src=`${baseUrl}${image}`)
+each image, niceIndex in pageInfo.imageList
+  input(
+    type="radio"
+    name="big-monster"
+    class="big-monster"
+    id=`big-monster-id-${niceIndex}` 
+  )
+input(
+  type="radio"
+  name="big-monster"
+  id=`big-monster-id-close`
+  checked
+)
+.image-slider__wrapper
+  label(for=`big-monster-id-close`).menu__disc
+    .icon__cross
+  .image-slider__list
+    each image, niceIndex in pageInfo.imageList
+      .image-slider__image(style=`background-image: url(${baseUrl}${image})`)
+  .image-slider__list--small
+    each image, niceIndex in pageInfo.imageList
+      label(for=`big-monster-id-${niceIndex}`).image-slider__image--small(style=`background-image: url(${baseUrl}${image})`)
+  h2.sub-title=pageInfo.title
+
+.column(span="row" height="30-hr")
+.column(span="row")
+  .description-box-shadow
+    each text in pageInfo.descriptionList
+      p.description-text=text
+

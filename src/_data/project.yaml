@@ -17,6 +17,14 @@
 - link: /project/riverlight-4
   imagePath: asset/image/Grosvenor-Crescent-4.png
   title: Riverlight 4
+  imageList:
+    - asset/image/Grosvenor-Crescent-4.png
+    - asset/image/Grosvenor-Crescent-5.png
+    - asset/image/Grosvenor-Crescent-6.png
+  descriptionList:
+    - Lorem is a good way to discover new paths
+    - Hello sweet World!!!!
+    - Add some more content extraa
 - link: /project/riverlight-5
   imagePath: asset/image/Grosvenor-Crescent-5.png
   title: Riverlight 5
