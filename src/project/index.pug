@@ -20,6 +20,6 @@ block content
       h2.sub-title--left=project.title
     .column(span="row")
     .column(span="row")
-      a(href=project.link title=project.title)
+      a(href=`${baseUrl}${project.link}` title=project.title)
         img(src=`${baseUrl}${project.imagePath}`, alt=project.title)
 
