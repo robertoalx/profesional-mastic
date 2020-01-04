@@ -1,0 +1,31 @@
+extends ../../_component/layout/layout
+
+block config
+  -
+    var metaTitle = 'riverlight 2'
+    var metaDescription = 'Project Descricption riverlight 2'
+    var showBackButton = `${baseUrl}project`
+
+block content
+  -
+    var currentLink = '/project/riverlight-2'
+    var pageInfo = data.project.filter(nooo => nooo.link === currentLink)[0]
+  //- pre=JSON.stringify(pageInfo, null, 2)
+  .column(span="row")
+    .project
+
+  .column(span="row" height="30")
+  .column(span="row")
+    h2.sub-title=pageInfo.title
+  .column(span="row" height="30-hr")
+
+  each image in pageInfo.imageList
+    .column(span="row")
+      label(href=image)
+        img(src=`${baseUrl}${image}`)
+  .column(span="row" height="30-hr")
+  .column(span="row")
+    .description-box-shadow
+      each text in pageInfo.descriptionList
+        p.description-text=text
+
