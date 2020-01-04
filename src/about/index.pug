@@ -2,13 +2,15 @@ extends ../_component/layout/layout
 
 block config
   -
-    const metaTitle = 'About Us'
-    const metaDescription = "Profesional Mastic Applier"
+    var metaTitle = 'About Us'
+    var metaDescription = 'About Profesional Mastic Applier'
+    var showBackButton = baseUrl
 
 block content
   .column(span="row")
     .about
 
+  .column(span="row" height="30")
   .column(span="row")
     h2.sub-title About Us
 

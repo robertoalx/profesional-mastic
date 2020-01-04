@@ -1,4 +1,7 @@
 .menu
+  if showBackButton
+    a(href=showBackButton).menu__disc
+      .icon__circle-left
   h1.menu__title Professional Mastic Appliers
   input(type="checkbox" id="menu")
   label(for="menu").menu__disc
@@ -10,3 +13,4 @@
         href=`${baseUrl}${item.link}`
         title=item.label
       ).menu__item=item.label
+    
