@@ -72,3 +72,19 @@ body {
   font-size: 14px;
   line-height: 30px;
 }
+
+.sub-title {
+  text-align: center;
+}
+
+.sub-title--left {
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+.sub-title,
+.sub-title--left {
+  font-size: 20px;
+  line-height: 21px;
+}
+
