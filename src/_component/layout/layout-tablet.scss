@@ -10,8 +10,20 @@
 
   %landing-image {
     &::after {
+      top: 160px;
       right: 0;
       left: 0;
     }
+  }
+
+  .sub-title {
+    text-align: left;
+  }
+
+  .menu .menu__disc {
+    position: absolute;
+    right: 0;
+    top: -50px;
+    font-size: 24px;
   }
 }

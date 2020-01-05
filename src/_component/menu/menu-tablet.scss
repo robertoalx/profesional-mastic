@@ -1,0 +1,40 @@
+@media (min-width: 768px) {
+  .menu {
+    bottom: initial;
+    top: 60px;
+    border: 0;
+    left: 80px;
+    right: 80px;
+    background-color: black;
+
+    .menu__disc {
+      z-index: 1;
+    }
+  }
+
+  .menu__title {
+    text-align: left;
+    font-size: 30px;
+  }
+
+  .menu__disc[for="menu"] {
+    display: none;
+  }
+
+  .menu__list {
+    right: initial;
+    left: 0;
+    right: 0;
+    bottom: initial;
+    top: -60px;
+    position: absolute;
+    border: 0;
+    background-color: black;
+    flex-direction: row;
+    height: 60px;
+
+    .menu__item {
+      line-height: 60px;
+    }
+  }
+}
