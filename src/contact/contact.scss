@@ -14,18 +14,10 @@
 }
 
 .contact {
-  height: 100vh;
-  position: relative;
-  
+  @extend %landing-image;
+
   &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: -37px;
-    left: -37px;
     background-image: url(#{$baseUrl}asset/image/companie.png);
-    background-size: cover;
   }
 }
 

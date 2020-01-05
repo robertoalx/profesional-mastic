@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 16px;
+  }
+
+  .content {
+    padding: 0 80px;
+  }
+
+  %landing-image {
+    &::after {
+      right: 0;
+      left: 0;
+    }
+  }
+}

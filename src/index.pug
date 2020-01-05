@@ -27,16 +27,13 @@ block content
   .column(span="row" height="30-hr")
 
   each project in data.home.project
-    .column(span="row")
-      img(src=`${baseUrl}${project.src}`, alt=project.title)
-    .column(span="row" height="30")
-    .column(span="row")
+    .column(span="4")
+      img.image-100(src=`${baseUrl}${project.src}`, alt=project.title)
       h3.link-title=project.title
-    .column(span="row" height="30")
 
   .column(span="row")
     h2.sub-title Products
 
   each product in data.home.product
-    .column(span="row")
-      img(src=`${baseUrl}${product.src}`, alt=product.title)
+    .column(span="4")
+      img.image-100(src=`${baseUrl}${product.src}`, alt=product.title)
