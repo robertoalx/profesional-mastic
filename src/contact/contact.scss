@@ -1,0 +1,31 @@
+.sub-title--left[data-label]::before {
+  content: attr(data-label);
+  padding-right: 20px;
+  text-transform: capitalize;
+}
+
+.contact-value {
+  &::before {
+    content: attr(data-before)
+  }
+  &::after {
+    content: attr(data-after)
+  }
+}
+
+.contact {
+  height: 100vh;
+  position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -37px;
+    left: -37px;
+    background-image: url(#{$baseUrl}asset/image/companie.png);
+    background-size: cover;
+  }
+}
+
