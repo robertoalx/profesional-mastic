@@ -9,7 +9,7 @@
 each image, niceIndex in pageInfo.imageList
   .column(span="row")
     label(for=`big-monster-id-${niceIndex}`)
-      img(src=`${baseUrl}${image}`)
+      img.image-100(src=`${baseUrl}${image}`)
 each image, niceIndex in pageInfo.imageList
   input(
     type="radio"

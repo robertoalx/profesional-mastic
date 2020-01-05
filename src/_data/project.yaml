@@ -1,4 +1,4 @@
-- link: /project/riverlight-2
+- link: "project/riverlight-2"
   imagePath: asset/image/Grosvenor-Crescent-2.png
   title: Riverlight 2
   imageList:
@@ -11,10 +11,10 @@
     - Lorem is a good way to discover new paths
     - Hello sweet World!!!!
 
-- link: /project/riverlight-3
+- link: "project/riverlight-3"
   imagePath: asset/image/Grosvenor-Crescent-3.png
   title: Riverlight 3
-- link: /project/riverlight-4
+- link: "project/riverlight-4"
   imagePath: asset/image/Grosvenor-Crescent-4.png
   title: Riverlight 4
   imageList:
@@ -25,9 +25,9 @@
     - Lorem is a good way to discover new paths
     - Hello sweet World!!!!
     - Add some more content extraa
-- link: /project/riverlight-5
+- link: "project/riverlight-5"
   imagePath: asset/image/Grosvenor-Crescent-5.png
   title: Riverlight 5
-- link: /project/riverlight-6
+- link: "project/riverlight-6"
   imagePath: asset/image/Grosvenor-Crescent-6.png
   title: Riverlight 6

@@ -14,12 +14,10 @@ block content
   .column(span="row")
     h2.sub-title Projects
 
+  .column(span="row" height="30-hr")
   each project in data.project
-    .column(span="row" height="30-hr")
-    .column(span="row")
+    .column(span="4")
       h2.sub-title--left=project.title
-    .column(span="row")
-    .column(span="row")
-      a(href=`${baseUrl}${project.link}` title=project.title)
-        img(src=`${baseUrl}${project.imagePath}`, alt=project.title)
+      a.image-hover(href=`${baseUrl}${project.link}` title=project.title)
+        img.image-100(src=`${baseUrl}${project.imagePath}`, alt=project.title)
 

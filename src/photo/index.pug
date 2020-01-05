@@ -16,8 +16,8 @@ block content
   .column(span="row" height="30-hr")
 
   each project in data.photo
-    .column(span="row")
-      img(
+    .column(span="4")
+      img.image-100(
         src=`${baseUrl}${project.imagePath}`
         alt=project.title
       )
