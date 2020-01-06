@@ -1,0 +1,23 @@
+extends ../_component/layout/layout
+
+block config
+  -
+    var metaTitle = 'Projects'
+    var metaDescription = 'Project Descricption'
+    var showBackButton = baseUrl
+
+block content
+  .column(span="row")
+    .project
+
+  .column(span="row" height="30")
+  .column(span="row")
+    h2.sub-title Projects
+
+  .column(span="row" height="30-hr")
+  each project in data.project
+    .column(span="4")
+      h2.sub-title--left=project.title
+      a.image-hover(href=`${baseUrl}${project.link}` title=project.title)
+        img.image-100(src=`${baseUrl}${project.imagePath}`, alt=project.title)
+

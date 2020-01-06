@@ -1,0 +1,82 @@
+.project {
+  @extend %landing-image;
+
+  &::after {
+    background-image: url(#{$baseUrl}asset/image/grosvenor-crescent-1-1700x1300.png);
+  }
+}
+
+.image-slider__wrapper {
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.image-slider__image {
+  display: none;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.image-slider__list {
+  flex-grow: 1;
+  overflow: hidden;
+  width: 100%;
+}
+
+.image-slider__list--small {
+  display: flex;
+  height: 48px;
+  width: 100%;
+}
+
+.image-slider__image--small {
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 5px;
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba($color: #000000, $alpha: 0.5)
+  }
+}
+
+#big-monster-id-close:checked ~ .image-slider__wrapper {
+  display: none;
+}
+
+input[name="big-monster"] {
+  display: none;
+}
+
+@for $var from 1 to 6 {
+  .big-monster:checked:nth-of-type(#{$var}) ~ .image-slider__wrapper .image-slider__list .image-slider__image:nth-child(#{$var}) {
+    display: block;
+  }
+
+  .big-monster:checked:nth-of-type(#{$var}) ~ .image-slider__wrapper .image-slider__list--small .image-slider__image--small:nth-child(#{$var}) {
+    &::after {
+      background-color: transparent;
+    }
+  }
+}

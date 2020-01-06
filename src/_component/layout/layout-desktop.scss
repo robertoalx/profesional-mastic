@@ -1,0 +1,31 @@
+@media (min-width: 1280px) {
+  .grid {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .content {
+    padding: 0 140px;
+  }
+
+  .image-hover {
+    position: relative;
+    display: block;
+    overflow: hidden;
+
+    &::before {
+      transition: 200ms;
+      content: attr(title);
+      position: absolute;
+      bottom: -100%;
+      left: 0;
+      right: 0;
+      background-color: black;
+      color: white;
+      padding: 1rem;
+    }
+
+    &:hover::before {
+      bottom: 0;
+    }
+  }
+}

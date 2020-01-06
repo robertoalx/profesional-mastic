@@ -1,0 +1,24 @@
+extends ../_component/layout/layout
+
+block config
+  -
+    var metaTitle = 'Contact'
+    var metaDescription = 'Contact Descricption'
+    var showBackButton = baseUrl
+
+block content
+  .column(span="row")
+    .contact
+
+  .column(span="row" height="30")
+  .column(span="row")
+    h2.sub-title Contact
+  .column(span="row" height="30-hr")
+
+  each info in data.contact
+    .column(span="row")
+      h2(data-label=info.label).sub-title--left
+        span(
+          data-before=info.before
+          data-after=info.after
+        ).contact-value=info.value

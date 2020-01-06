@@ -3,8 +3,8 @@
 - label: "About me"
   link: about
 - label: Projects
-  link: projects
+  link: project
 - label: Photos
-  link: photos
+  link: photo
 - label: Contact
   link: contact
