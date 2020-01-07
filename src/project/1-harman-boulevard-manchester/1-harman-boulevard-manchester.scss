@@ -1,0 +1,7 @@
+.harman-page {
+  @extend %landing-image;
+
+  &::after {
+    background-image: url(#{$baseUrl}asset/image/project/1-harman-boulevard-manchester/main-harman-boulevard.jpg);
+  }
+}

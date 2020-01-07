@@ -1,0 +1,7 @@
+.river-walk-page {
+  @extend %landing-image;
+
+  &::after {
+    background-image: url(#{$baseUrl}asset/image/project/river-walk/river-walk-3.jpg);
+  }
+}

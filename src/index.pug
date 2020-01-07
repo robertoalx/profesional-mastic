@@ -29,7 +29,7 @@ block content
   each project in data.home.project
     .column(span="4")
       img.image-100(src=`${baseUrl}${project.src}`, alt=project.title)
-      h3.link-title=project.title
+      a(href=project.link).link-title=project.title
 
   .column(span="row")
     h2.sub-title Products

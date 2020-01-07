@@ -1,0 +1,7 @@
+.tower-bridge-page {
+  @extend %landing-image;
+
+  &::after {
+    background-image: url(#{$baseUrl}asset/image/project/one-tower-bridge-building-5/main-one-tower-bridge-london.jpg);
+  }
+}

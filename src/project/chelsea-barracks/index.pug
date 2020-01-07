@@ -1,0 +1,15 @@
+extends ../../_component/layout/layout
+
+block config
+  -
+    var metaTitle = 'Chelsea Barracks'
+    var metaDescription = 'Project Descricption Chelsea Barracks'
+    var showBackButton = `${baseUrl}project`
+
+block content
+  .column(span="row")
+    .chelsea-page
+  -
+    var currentLink = 'project/chelsea-barracks'
+    var pageInfo = data.project.filter(nooo => nooo.link === currentLink)[0]
+  include ../../_component/product-description/product-description

@@ -1,0 +1,15 @@
+extends ../../_component/layout/layout
+
+block config
+  -
+    var metaTitle = '11-15-grosvenor-cresent'
+    var metaDescription = 'Project Descricption riverlight 4'
+    var showBackButton = `${baseUrl}project`
+
+block content
+  .column(span="row")
+    .grosvenor-page
+  -
+    var currentLink = 'project/11-15-grosvenor-cresent'
+    var pageInfo = data.project.filter(nooo => nooo.link === currentLink)[0]
+  include ../../_component/product-description/product-description

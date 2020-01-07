@@ -1,0 +1,15 @@
+extends ../../_component/layout/layout
+
+block config
+  -
+    var metaTitle = 'Undershaft'
+    var metaDescription = 'Project Descricption Undershaft'
+    var showBackButton = `${baseUrl}project`
+
+block content
+  .column(span="row")
+    .undershaft-page
+  -
+    var currentLink = 'project/undershaft'
+    var pageInfo = data.project.filter(nooo => nooo.link === currentLink)[0]
+  include ../../_component/product-description/product-description
