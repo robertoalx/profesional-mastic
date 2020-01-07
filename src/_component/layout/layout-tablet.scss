@@ -26,4 +26,10 @@
     top: -50px;
     font-size: 24px;
   }
+
+  .column[height="30-hr-6"] {
+    &::after {
+      border-top: 4px solid #fff;
+    }
+  }
 }

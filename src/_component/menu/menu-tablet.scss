@@ -35,6 +35,10 @@
 
     .menu__item {
       line-height: 60px;
+
+      &:first-child {
+        padding: 0 1.6rem 0 0;
+      }
     }
   }
 }
