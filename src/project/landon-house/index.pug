@@ -1,0 +1,15 @@
+extends ../../_component/layout/layout
+
+block config
+  -
+    var metaTitle = 'Lancon House'
+    var metaDescription = 'Project Descricption Lancon House'
+    var showBackButton = `${baseUrl}project`
+
+block content
+  .column(span="row")
+    .lancon-page
+  -
+    var currentLink = 'project/lancon-house'
+    var pageInfo = data.project.filter(nooo => nooo.link === currentLink)[0]
+  include ../../_component/product-description/product-description

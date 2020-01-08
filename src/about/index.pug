@@ -12,10 +12,20 @@ block content
 
   .column(span="row" height="30")
   .column(span="row")
-    h2.sub-title About Us
+    h2.sub-title About us
 
   .column(span="row" height="30-hr")
   .column(span="row")
-    .description-box-shadow
-      p.description-text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatibus. Placeat, ratione soluta dignissimos ipsum ad deserunt recusandae neque tempore tenetur, molestias quia nihil consectetur quaerat cum dolorum, eveniet sed.
-      p.description-text Iste molestias odio harum ipsam nam beatae corporis, aperiam tenetur voluptas, molestiae praesentium! Aspernatur, inventore perspiciatis voluptatem veniam distinctio placeat pariatur nostrum consequuntur doloribus soluta exercitationem, a deserunt enim ea.
+    each more in data.about.descriptionList
+      each moreValue in more.contentList
+        p.description-text=moreValue
+
+  
+  .column(span="row")
+  each list in data.about.unorderedList
+    .column(span="row")
+        .list-title=list.title
+          each listValue in list.listItem
+            .column(span="row")
+              ul
+                li.description-text=listValue
