@@ -32,9 +32,15 @@
     background-color: black;
     flex-direction: row;
     height: 60px;
-
+    
     .menu__item {
       line-height: 60px;
+      color: #707070;
+
+      &:hover {
+        color: white;
+        transition: 250ms;
+      }
 
       &:first-child {
         padding: 0 1.6rem 0 0;
