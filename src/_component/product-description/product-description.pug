@@ -4,7 +4,7 @@
 .column(span="row" height="30-hr")
 
 each image, niceIndex in pageInfo.imageList
-  .column(span="row")
+  .column(span="4")
     label(for=`big-monster-id-${niceIndex}`)
       img.image-100(src=`${baseUrl}${image}`)
 each image, niceIndex in pageInfo.imageList
@@ -33,7 +33,6 @@ input(
 
 .column(span="row" height="30-hr")
 .column(span="row")
-  .description-box-shadow
-    each text in pageInfo.descriptionList
-      p.description-text=text
+  each text in pageInfo.descriptionList
+    p.description-text=text
 
