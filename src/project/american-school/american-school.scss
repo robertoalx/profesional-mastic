@@ -1,0 +1,7 @@
+.american-page {
+  @extend %landing-image;
+
+  &::after {
+    background-image: url(#{$baseUrl}asset/image/project/american-school/main-american-school2.jpg);
+  }
+}

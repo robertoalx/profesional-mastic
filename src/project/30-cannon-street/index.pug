@@ -1,0 +1,15 @@
+extends ../../_component/layout/layout
+
+block config
+  -
+    var metaTitle = '30 Cannon Street'
+    var metaDescription = 'Project Descricption 30 Cannon Street'
+    var showBackButton = `${baseUrl}project`
+
+block content
+  .column(span="row")
+    .cannon-page
+  -
+    var currentLink = 'project/30-cannon-street'
+    var pageInfo = data.project.filter(nooo => nooo.link === currentLink)[0]
+  include ../../_component/product-description/product-description

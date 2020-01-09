@@ -2,6 +2,10 @@
   @extend %landing-image;
 
   &::after {
-    background-image: url(#{$baseUrl}asset/image/thomas-more1.png);
+    background-image: url(#{$baseUrl}asset/image/about-uss.jpg);
   }
+}
+
+.list-title {
+  line-height: 40px;
 }

@@ -32,10 +32,17 @@ body {
 
 .column[span="4"] {
   grid-column: span 4;
+  // text-align: center;
+}
+
+.column[textAlign="center"] {
+  grid-column: span 4;
+  text-align: center;
 }
 
 .image-100 {
-  width: 100%;
+  width: 286px;
+  height: 286px;
 }
 
 .column[height="30"] {
@@ -64,19 +71,20 @@ body {
 
 .column[height="30-hr-6"] {
   &::after {
-    border-top: 6px solid #fff;
+    border-top: 2px solid #fff;
   }
 }
 
 .description-box-shadow {
-  background-color: #393939;
-  padding: 20px;
+  // background-color: #393939;
+  // padding: 0 50px 0 0;
   box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.25);
 }
 
 .description-text {
   font-size: 14px;
   line-height: 30px;
+  padding-right: 100px;
 }
 
 .sub-title {

@@ -2,7 +2,8 @@
   if showBackButton
     a(href=showBackButton).menu__disc
       .icon__circle-left
-  h1.menu__title Professional Mastic Appliers
+  img.menu__title(src="../../asset/image/new-logo2.png")
+  //- h2.menu__title Profesional Mastic Applier
   input(type="checkbox" id="menu")
   label(for="menu").menu__disc
     .icon__menu
@@ -13,4 +14,4 @@
         href=`${baseUrl}${item.link}`
         title=item.label
       ).menu__item=item.label
-    
+

@@ -1,0 +1,7 @@
+.triangle-page {
+  @extend %landing-image;
+
+  &::after {
+    background-image: url(#{$baseUrl}asset/image/project/triangle-cambridge/main-triangle-4.jpg);
+  }
+}
