@@ -32,6 +32,12 @@ body {
 
 .column[span="4"] {
   grid-column: span 4;
+  // text-align: center;
+}
+
+.column[textAlign="center"] {
+  grid-column: span 4;
+  text-align: center;
 }
 
 .image-100 {

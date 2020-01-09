@@ -27,7 +27,7 @@ block content
   .column(span="row" height="30-hr")
 
   each project in data.home.project
-    .column(span="4")
+    .column(textalign="center")
       img.image-100(src=`${baseUrl}${project.src}`, alt=project.title)
       a(href=project.link).link-title=project.title
 
