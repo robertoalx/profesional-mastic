@@ -9,7 +9,7 @@
 
   .image-hover {
     position: relative;
-    display: block;
+    display: inline-block;
     overflow: hidden;
 
     &::before {
@@ -27,5 +27,16 @@
     &:hover::before {
       bottom: 0;
     }
+  }
+
+  .column[height="30-hr-6"] {
+    &::after {
+      border-top: 6px solid #fff;
+    }
+  }
+
+  .image-100 {
+    width: 325px;
+    height: 325px;
   }
 }

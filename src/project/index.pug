@@ -3,7 +3,7 @@ extends ../_component/layout/layout
 block config
   -
     var metaTitle = 'Projects'
-    var metaDescription = 'Project Descricption'
+    var metaDescription = 'Project Description'
     var showBackButton = baseUrl
 
 block content
@@ -17,7 +17,9 @@ block content
   .column(span="row" height="30-hr")
   each project in data.project
     .column(span="4")
+      .column(height="30")
       h2.sub-title--left=project.title
+      .column(height="30")
       a.image-hover(href=`${baseUrl}${project.link}` title=project.title)
         img.image-100(src=`${baseUrl}${project.imagePath}`, alt=project.title)
 

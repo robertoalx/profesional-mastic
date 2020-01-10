@@ -1,0 +1,7 @@
+.kensington-page {
+  @extend %landing-image;
+
+  &::after {
+    background-image: url(#{$baseUrl}asset/image/project/kensington-row/main-kensington-row.jpg);
+  }
+}

@@ -1,0 +1,15 @@
+extends ../../_component/layout/layout
+
+block config
+  -
+    var metaTitle = 'American School'
+    var metaDescription = 'Project Descricption American School'
+    var showBackButton = `${baseUrl}project`
+
+block content
+  .column(span="row")
+    .american-page
+  -
+    var currentLink = 'project/american-school'
+    var pageInfo = data.project.filter(nooo => nooo.link === currentLink)[0]
+  include ../../_component/product-description/product-description

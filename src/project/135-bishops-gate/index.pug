@@ -1,0 +1,16 @@
+extends ../../_component/layout/layout
+
+block config
+  -
+    var metaTitle = '135 Bishops Gate'
+    var metaDescription = 'Project Descricption 135 Bishops Gate'
+    var showBackButton = `${baseUrl}project`
+
+block content
+  .column(span="row")
+    .bishop-page
+
+  -
+    var currentLink = 'project/135-bishops-gate'
+    var pageInfo = data.project.filter(nooo => nooo.link === currentLink)[0]
+  include ../../_component/product-description/product-description

@@ -1,0 +1,7 @@
+.lilie-page {
+  @extend %landing-image;
+
+  &::after {
+    background-image: url(#{$baseUrl}asset/image/project/lillie-square/main-lillie-square-3.jpg);
+  }
+}
