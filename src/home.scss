@@ -21,3 +21,9 @@
     content: ' | Read More...';
   }
 }
+
+.product-image__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}

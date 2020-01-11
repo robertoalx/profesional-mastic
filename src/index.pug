@@ -18,7 +18,7 @@ block content
   .column(span="row" height="30-hr")
   .column(span="row")
     each text in data.home.contentList
-      p.description-text= text.contentList
+      p.description-text=text.content
 
   .column(span="row" height="30")
 
@@ -35,6 +35,7 @@ block content
     h2.sub-title Products
   .column(span="row" height="30-hr")
   .column(span="row")
-    each product in data.home.product
-      .product-image
+    .product-image__list
+      each product in Array.from({ length: 16 }, (_, k) => k + 1)
+        .product-image
 

@@ -20,7 +20,7 @@ block content
       .column(height="30")
       h2.sub-title--left=project.title
       .column(height="30")
-      a.image-hover(href=`${baseUrl}${project.link}` title=project.descriptionList)
+      a.image-hover(href=`${baseUrl}${project.link}` title=project.descriptionList[0])
         img.image-100(src=`${baseUrl}${project.imagePath}`, alt=project.title)
 
 
