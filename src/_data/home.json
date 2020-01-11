@@ -18,20 +18,10 @@
   ],
   "product": [
     {
-      "src": "asset/image/product/Arbo produc.jpg",
-      "title": "135 Bishopgate"
+      "src": "asset/image/product/product-sprite1.jpg"
     },
     {
-      "src": "asset/image/product/fosroc product.jpg",
-      "title": "Nova Victoria Building"
-    },
-    {
-      "src": "asset/image/product/geocel product.jpg",
-      "title": "135 Bishopgate"
-    },
-    {
-      "src": "asset/image/product/sika product.jpg",
-      "title": "135 Bishopgate"
+      "src": "asset/image/product/product-sprite2.jpg"
     }
   ]
 }
