@@ -120,71 +120,20 @@ body {
 }
 
 .product-image {
-  height: 100px;
-  width: 150px;
+  // height: 100px;
+  // width: 150px;
+  width: 100%;
+  padding-top: 66%;
   border: 1px solid black;
   // margin: 0 auto;
   margin-right: 10px;
   margin-bottom: 10px;
+  background-size: 100%;
   background-image: url(asset/image/product/16-logo.jpg);
 
-  &:nth-child(2) {
-    background-position-y: -104px;
-  }
-
-  &:nth-child(3) {
-    background-position-y: -200px;
-  }
-
-  &:nth-child(4) {
-    background-position-y: -300px;
-  }
-
-  &:nth-child(5) {
-    background-position-y: -400px;
-  }
-
-  &:nth-child(6) {
-    background-position-y: -500px;
-  }
-
-  &:nth-child(7) {
-    background-position-y: -600px;
-  }
-
-  &:nth-child(8) {
-    background-position-y: -700px;
-  }
-
-  &:nth-child(9) {
-    background-position-y: -800px;
-  }
-
-  &:nth-child(10) {
-    background-position-y: -900px;
-  }
-
-  &:nth-child(11) {
-    background-position-y: -1000px;
-  }
-
-  &:nth-child(12) {
-    background-position-y: -1100px;
-  }
-
-  &:nth-child(13) {
-    background-position-y: -1200px;
-  }
-
-  &:nth-child(14) {
-    background-position-y: -1300px;
-  }
-
-  &:nth-child(15) {
-    background-position-y: -1400px;
-  }
-
-  &:nth-child(16) {
-    background-position-y: -1500px;
+  @for $i from 0 to 16 {
+    &:nth-child(#{$i}) {
+      background-position-y: -#{($i - 1) * 6.66 + 0%};
+    }
   }
 }
