@@ -19,7 +19,7 @@
     "pnp": true
   },
   "config": {
-    "customUrl": "http://professionalmasticapplier.uk/",
+    "customUrl": "http://professionalmasticapplier.uk",
     "githubUrl": "http://github.com/codetapacademy/my-first-client-with-robert-and-marian.git",
     "deployToGithubIo": false,
     "directory": {
