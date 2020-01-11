@@ -15,10 +15,11 @@
   flex-grow: 1;
   line-height: 21px;
   font-size: 15px;
-  padding: 0 10px;
   text-align: center;
-  height: 150px;
   background-repeat: no-repeat;
+  height: 80px;
+  background-image: url(#{$baseUrl}asset/image/pma-logo.svg);
+  background-position: center center;
 }
 
 .menu__disc {
