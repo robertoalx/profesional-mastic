@@ -7,7 +7,7 @@
 
   title: Nova Victoria Building 5
   descriptionList: 
-    - Mastic installation on Skirtings and Marble
+    - Internal Mastic installation on Skirtings and Marble
 
 - link: "project/135-bishops-gate"
   imagePath: asset/image/project/135-bishops-gate/main-bishop.jpg
@@ -45,12 +45,10 @@
     - Mastic installation on Curtain Walling and Brick
 
 - link: "project/30-cannon-street"
-  imagePath: asset/image/project/30-cannon-street/main-cannon-street.jpg
+  imagePath: asset/image/project/30-cannon-street/cannon-street-1.jpg
   title: 30 Cannon Street
   imageList:
-    - asset/image/project/30-cannon-street/cannon-street-1.jpg
-    - asset/image/project/30-cannon-street/cannon-street-2.jpg
-    - asset/image/project/30-cannon-street/cannon-street-3.jpg
+    - asset/image/project/30-cannon-street/cannon-street.jpg
   descriptionList: 
     - Mastic installation on Glazing internal and external
 
@@ -135,8 +133,7 @@
   imagePath: asset/image/project/triangle-cambridge/main-triangle-4.jpg
   imageList:
     - asset/image/project/triangle-cambridge/image3.jpg
-    - asset/image/project/triangle-cambridge/triangle-1.jpg
-    - asset/image/project/triangle-cambridge/triangle-2.jpg
+    - asset/image/project/triangle-cambridge/triangle-2.jpeg
   title: Triangle Cambridge
   descriptionList: 
     - Mastic installation on Stone and Cladding

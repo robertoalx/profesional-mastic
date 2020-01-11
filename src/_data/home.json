@@ -18,10 +18,60 @@
   ],
   "product": [
     {
-      "src": "asset/image/product/product-sprite1.jpg"
+      "src": "asset/image/product/product-sprite8.jpg"
     },
     {
-      "src": "asset/image/product/product-sprite2.jpg"
+      "src": "asset/image/product/product-sprite8.jpg"
+    },
+    {
+      "src": "asset/image/product/product-sprite8.jpg"
+    },
+    {
+      "src": "asset/image/product/product-sprite8.jpg"
+    },
+    {
+      "src": "asset/image/product/product-sprite8.jpg"
+    },
+    {
+      "src": "asset/image/product/product-sprite8.jpg"
+    },
+    {
+      "src": "asset/image/product/product-sprite8.jpg"
+    },
+    {
+      "src": "asset/image/product/product-sprite8.jpg"
+    },
+    {
+      "src": "asset/image/product/product-sprite8.jpg"
+    },
+    {
+      "src": "asset/image/product/product-sprite8.jpg"
+    },
+    {
+      "src": "asset/image/product/product-sprite8.jpg"
+    },
+    {
+      "src": "asset/image/product/product-sprite8.jpg"
+    },
+    {
+      "src": "asset/image/product/product-sprite8.jpg"
+    },
+    {
+      "src": "asset/image/product/product-sprite8.jpg"
+    },
+    {
+      "src": "asset/image/product/product-sprite8.jpg"
+    },
+    {
+      "src": "asset/image/product/product-sprite8.jpg"
+    }
+  ],
+  "contentList": [
+    {
+      "content": "A choice that makes the difference."
+    },
+    {
+      "content": "We provide a high quality service in all projects we undertake."
     }
   ]
 }
