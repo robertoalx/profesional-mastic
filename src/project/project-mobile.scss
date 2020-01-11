@@ -2,7 +2,7 @@
   @extend %landing-image;
 
   &::after {
-    background-image: url(#{$baseUrl}asset/image/project.jpg);
+    background-image: url(#{$baseUrl}asset/image/background-image/bishop2.jpg);
   }
 }
 

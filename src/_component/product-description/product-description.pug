@@ -9,3 +9,8 @@
       each image, niceIndex in pageInfo.imageList
         img(src=`${baseUrl}${image}`)
 include ../gallery/gallery
+
+.column(span="row" height="30-hr")
+.column(span="row")
+  each text in pageInfo.descriptionList
+    p.description-text=text
