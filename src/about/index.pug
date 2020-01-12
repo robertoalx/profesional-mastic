@@ -20,6 +20,12 @@ block content
       each moreValue in more.contentList
         p.description-text=moreValue
 
+  h2.sub-title Abseiling:
+  .column(span="row" height="30-hr")
+  .column(span="row")
+    each content in data.about.newContent
+      p.description-text=content.contentList
+
   
   .column(span="row")
   each list in data.about.unorderedList
