@@ -39,4 +39,9 @@
     width: 325px;
     height: 325px;
   }
+
+
+  div.product-image__list {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }

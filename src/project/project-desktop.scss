@@ -2,4 +2,10 @@
   .image-slider__list--small {
     height: 150px;
   }
+
+  .project {
+    &::after {
+      background-position-x: initial;
+    }
+  }
 }

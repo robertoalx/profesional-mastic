@@ -6,8 +6,8 @@
     - asset/image/project/nova-victoria-building-5/nova-victoria-building3.jpg
 
   title: Nova Victoria Building 5
-  descriptionList: 
-    - Mastic installation on Skirtings and Marble
+  descriptionList:
+    - Internal mastic installation on Skirtings and Marble
 
 - link: "project/135-bishops-gate"
   imagePath: asset/image/project/135-bishops-gate/main-bishop.jpg
@@ -18,8 +18,8 @@
     - asset/image/project/135-bishops-gate/135-bishop-4.jpg
     - asset/image/project/135-bishops-gate/135-bishop-5.jpg
   title: 135 Bishops Gate
-  descriptionList: 
-    - Mastic installation on Roofs, Terraces and Cladding
+  descriptionList:
+    - External mastic installation on Roofs, Terraces and Cladding 
 
 - link: "project/undershaft"
   imagePath: asset/image/project/undershaft/main-1-Undershaft-4.jpg
@@ -29,8 +29,8 @@
     - asset/image/project/undershaft/undershaft-3.jpg
     - asset/image/project/undershaft/undershaft-4.jpg
   title: Undershaft
-  descriptionList: 
-    - Mastic installation on Curtain Walling
+  descriptionList:
+    - External and internal mastic installation on Curtain Walling
 
 - link: "project/11-15-grosvenor-cresent"
   imagePath: asset/image/project/11-15-grosvenor-cresent/Grosvenor-Crescent-3.jpg
@@ -41,18 +41,16 @@
     - asset/image/project/11-15-grosvenor-cresent/Grosvenor-Crescent-4.jpg
     - asset/image/project/11-15-grosvenor-cresent/Grosvenor-Crescent-5.jpg
     - asset/image/project/11-15-grosvenor-cresent/Grosvenor-Crescent-6.jpg
-  descriptionList: 
-    - Mastic installation on Curtain Walling and Brick
+  descriptionList:
+    - External and internal mastic installation on Curtain Waling and Brick 
 
 - link: "project/30-cannon-street"
-  imagePath: asset/image/project/30-cannon-street/main-cannon-street.jpg
+  imagePath: asset/image/project/30-cannon-street/cannon-street-1.jpg
   title: 30 Cannon Street
   imageList:
-    - asset/image/project/30-cannon-street/cannon-street-1.jpg
-    - asset/image/project/30-cannon-street/cannon-street-2.jpg
-    - asset/image/project/30-cannon-street/cannon-street-3.jpg
-  descriptionList: 
-    - Mastic installation on Glazing internal and external
+    - asset/image/project/30-cannon-street/cannon-street.jpg
+  descriptionList:
+    - External and internal mastic installation on Glazing 
 
 - link: "project/american-school"
   imagePath: asset/image/project/american-school/main-american-school2.jpg
@@ -63,8 +61,8 @@
     - asset/image/project/american-school/american-school-4.jpg
     - asset/image/project/american-school/american-school-5.jpg
   title: American School
-  descriptionList: 
-    - Mastic installation on Curstain Walling and roof
+  descriptionList:
+    - External and internal mastic installation on Curtain Walling and roof 
   
 - link: "project/chelsea-barracks"
   imagePath: asset/image/project/chelsea-barracks/main-chelsea-barracks-2.jpg
@@ -72,8 +70,8 @@
     - asset/image/project/chelsea-barracks/chelsea-barracks-1.jpg
     - asset/image/project/chelsea-barracks/chelsea-barracks-3.jpg
   title: Chelsea Barracks
-  descriptionList: 
-    - Mastic installation on Skirtings, Marble and all Sanitary
+  descriptionList:
+    - Internal mastic installation on Skirtings, Marble and all Sanitary
 
 - link: "project/kensington-row"
   imagePath: asset/image/project/kensington-row/main-kensington-row.jpg
@@ -81,8 +79,8 @@
     - asset/image/project/kensington-row/kensington-row-1.jpg
     - asset/image/project/kensington-row/kensington-row-3.jpg
   title: Kensington Row
-  descriptionList: 
-    - Mastic installation on Curtain Walling, Stone and Cladding
+  descriptionList:
+    - External and internal mastic installation on Curtain Walling, Stone and Cladding 
 
 - link: "project/lancon-house"
   imagePath: asset/image/project/lancon-house/main-lancon-3.jpg
@@ -90,8 +88,8 @@
     - asset/image/project/lancon-house/lancon-1.jpg
     - asset/image/project/lancon-house/lancon-2.jpg
   title: Lancon House
-  descriptionList: 
-    - Mastic Installation on Curtain Walling and Cladding
+  descriptionList:
+    - External and internal mastic installation on Curtain Walling and Cladding 
 
 - link: "project/lillie-square"
   imagePath: asset/image/project/lillie-square/main-lillie-square-3.jpg
@@ -100,8 +98,8 @@
     - asset/image/project/lillie-square/lillie-square-2.jpg
     - asset/image/project/lillie-square/lillie-square-3.jpg
   title: Lillie Square
-  descriptionList: 
-    - Mastic installation on Curtain Walling and Coppings 
+  descriptionList:
+    - External mastic installation on Curtain Walling and Coppings
 
 - link: "project/one-tower-bridge-building-5"
   imagePath: asset/image/project/one-tower-bridge-building-5/main-one-tower-bridge-london.jpg
@@ -111,8 +109,8 @@
     - asset/image/project/one-tower-bridge-building-5/one-tower-3.jpg
     - asset/image/project/one-tower-bridge-building-5/one-tower-4.jpg
   title: One Tower Bridge Building 5
-  descriptionList: 
-    - Mastic installation on Curtain Walling
+  descriptionList:
+    - External and internal mastic installation on curtain walling
 
 - link: "project/one-finsbury-circus"
   imagePath: asset/image/project/one-finsbury-circus/main-roofs-6-finsbury.jpg
@@ -120,26 +118,25 @@
     - asset/image/project/one-finsbury-circus/finsbury-circus-1.jpg
     - asset/image/project/one-finsbury-circus/finsbury-circus-2.jpg
   title: One Finsbury Circus
-  descriptionList: 
-    - Mastic installation on Roof
+  descriptionList:
+    - External mastic installation on roof 
 
 - link: "project/river-walk"
   imagePath: asset/image/project/river-walk/river-walk-3.jpg
   imageList:
     - asset/image/project/river-walk/river-walk-1.jpg
   title: River Walk
-  descriptionList: 
-    - Mastic installation on Curtain Walling
+  descriptionList:
+    - External mastic installation on Curtain Walling
 
 - link: "project/triangle-cambridge"
   imagePath: asset/image/project/triangle-cambridge/main-triangle-4.jpg
   imageList:
     - asset/image/project/triangle-cambridge/image3.jpg
-    - asset/image/project/triangle-cambridge/triangle-1.jpg
-    - asset/image/project/triangle-cambridge/triangle-2.jpg
+    - asset/image/project/triangle-cambridge/triangle-2.jpeg
   title: Triangle Cambridge
-  descriptionList: 
-    - Mastic installation on Stone and Cladding
+  descriptionList:
+    - External mastic installation on Stone and Cladding 
 
 - link: "project/tottenham-court-road"
   imagePath: asset/image/project/tottenham-court-road/tottenham-1.jpg
@@ -147,8 +144,8 @@
     - asset/image/project/tottenham-court-road/tottenham-2.jpg
     - asset/image/project/tottenham-court-road/tottenham-3.jpg
   title: Tottenham Court Road
-  descriptionList: 
-    - Mastic installation on Curtain Walling
+  descriptionList:
+    - External mastic installation on Curtain Walling
 
 - link: "project/1-harman-boulevard-manchester"
   imagePath: asset/image/project/1-harman-boulevard-manchester/main-harman-boulevard.jpg
@@ -157,16 +154,16 @@
     - asset/image/project/1-harman-boulevard-manchester/harman-boulevard-1.jpg
     - asset/image/project/1-harman-boulevard-manchester/harman-boulevard-2.jpg
     - asset/image/project/1-harman-boulevard-manchester/harman-boulevard-3.jpg
-  descriptionList: 
-    - Mastic installation on Canopy
+  descriptionList:
+    - External	mastic installation on Canopy
 
 - link: "project/cathedral-lane-shopping-centre-coventry"
   imagePath: asset/image/project/cathedral-lane-shopping-centre-coventry/main-coventry.jpg
   imageList:
     - asset/image/project/cathedral-lane-shopping-centre-coventry/coventry1.jpg
   title: Cathedral Lane Shopping Centre Coventry
-  descriptionList: 
-    - Mastic installation on roof
+  descriptionList:
+    - External mastic installation on Roof
 
 - link: "project/thomas-more"
   imagePath: asset/image/project/thomas-more/main-thomas-more3.jpg
@@ -175,8 +172,8 @@
     - asset/image/project/thomas-more/thomas-more1.jpg
     - asset/image/project/thomas-more/thomas-more2.jpg
   title: Thomas More
-  descriptionList: 
-    - Mastic installation on Curtain Walling
+  descriptionList:
+    - External and internal mastic installation on Cladding and Stone
 
 
 

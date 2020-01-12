@@ -16,22 +16,12 @@
       "link": "project/one-tower-bridge-building-5"
     }
   ],
-  "product": [
+  "contentList": [
     {
-      "src": "asset/image/product/Arbo produc.jpg",
-      "title": "135 Bishopgate"
+      "content": "A choice that makes the difference."
     },
     {
-      "src": "asset/image/product/fosroc product.jpg",
-      "title": "Nova Victoria Building"
-    },
-    {
-      "src": "asset/image/product/geocel product.jpg",
-      "title": "135 Bishopgate"
-    },
-    {
-      "src": "asset/image/product/sika product.jpg",
-      "title": "135 Bishopgate"
+      "content": "We provide a high quality service in all projects we undertake."
     }
   ]
 }

@@ -2,8 +2,8 @@ extends _component/layout/layout
 
 block config
   -
-    var metaTitle = 'Profesional'
-    var metaDescription = 'Profesional Mastic'
+    var metaTitle = 'Profesional Mastic Applier in London and UK'
+    var metaDescription = 'Interior and Exterior mastic applier in London and UK. A choice that makes the difference.'
     var showBackButton = ''
 
 block content
@@ -17,9 +17,9 @@ block content
 
   .column(span="row" height="30-hr")
   .column(span="row")
-    .description-box-shadow
-      p.description-text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatibus. Placeat, ratione soluta dignissimos ipsum ad deserunt recusandae neque tempore tenetur, molestias quia nihil consectetur quaerat cum dolorum, eveniet sed.
-      p.description-text Iste molestias odio harum ipsam nam beatae corporis, aperiam tenetur voluptas, molestiae praesentium! Aspernatur, inventore perspiciatis voluptatem veniam distinctio placeat pariatur nostrum consequuntur doloribus soluta exercitationem, a deserunt enim ea.
+    each text in data.home.contentList
+      p.description-text=text.content
+
   .column(span="row" height="30")
 
   .column(span="row")
@@ -33,7 +33,9 @@ block content
 
   .column(span="row")
     h2.sub-title Products
+  .column(span="row" height="30-hr")
+  .column(span="row")
+    .product-image__list
+      each product in Array.from({ length: 16 }, (_, k) => k + 1)
+        .product-image
 
-  each product in data.home.product
-    .column(span="4")
-      img.image-100(src=`${baseUrl}${product.src}`, alt=product.title)
