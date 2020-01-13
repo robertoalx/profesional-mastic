@@ -5,7 +5,7 @@
 
   .project {
     &::after {
-      background-position-x: initial;
+      background-image: url(#{$baseUrl}asset/image/background-image/135-bishop-2.jpg);
     }
   }
 }
