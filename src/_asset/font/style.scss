@@ -26,10 +26,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon__menu7 {
-  font-size: 25px;
+.icon__search {
   &:before {
-    content: $icon__menu7; 
+    content: $icon__search2; 
   }
 }
 .icon__menu {
@@ -37,14 +36,27 @@
     content: $icon__menu; 
   }
 }
+.icon__point-down {
+  &:before {
+    content: $icon__point-down; 
+  }
+}
+.icon__arrow-down {
+  &:before {
+    content: $icon__arrow-down; 
+  }
+}
+.icon__menu7 {
+  &:before {
+    content: $icon__menu7; 
+  }
+}
 .icon__cross {
-  font-size: 25px;
   &:before {
     content: $icon__cross; 
   }
 }
 .icon__circle-left {
-  font-size: 25px;
   &:before {
     content: $icon__circle-left; 
   }
@@ -74,4 +86,8 @@
     content: $icon__linkedin; 
   }
 }
-
+.icon__enlarge {
+  &:before {
+    content: $icon__enlarge; 
+  }
+}
