@@ -5,22 +5,29 @@
     "contentList": [
       "We have been providing professional mastic and silicone application services to London and it’s surrounding areas.",
       "Our vast knowledge in the industry and quality workmanship has earned us quite a reputation.",
-      "Our company provides a service that is not only functional but it’s beautifully mastered as an art.",
-      "We are fully qualified for applying structural glazing sealant."
+      "Our company provides a service that is not only functional but it’s beautifully mastered as an art."
     ]
   }
 ],
   "newContent": [
   {
-    "title": "Abseiling:",
+    "title": "Abseiling",
     "contentList": [
-      "All our rope access technicians are fully qualified, fully insured and professional in applying the mastic."
+      "All our rope access technicians are fully qualified, fully insured and professional in mastic instalation."
+    ]
+  }
+],
+  "qualifiedList": [
+  {
+    "title": "Structural glazing sealant",
+    "contentList": [
+      "We are fully qualified for applying structural glazing sealant."
     ]
   }
 ],
   "unorderedList": [
     {
-    "title": "Our exterior mastic services includes:",
+    "title": "Our exterior mastic services includes",
     "listItem": [
       "All brick work",
       "Curtain walling ",
@@ -36,7 +43,7 @@
     ]
   },
   {
-    "title": "Our interior mastic services includes:",
+    "title": "Our interior mastic services includes",
     "listItem": [
       "Curtain walling ",
       "All sanitary wares and fittings ",

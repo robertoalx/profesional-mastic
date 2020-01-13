@@ -44,4 +44,11 @@
   div.product-image__list {
     grid-template-columns: repeat(6, 1fr);
   }
+
+
+  .nice-message,
+  .icon__search {
+    display: none;
+    
+  }
 }
