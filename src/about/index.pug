@@ -12,30 +12,35 @@ block content
 
   .column(span="row" height="30")
   .column(span="row")
-    h2.sub-title About us
 
-  .column(span="row" height="30-hr")
-  .column(span="row")
     each more in data.about.descriptionList
+      h2.sub-title=more.title
+      .column(span="row" height="30-hr")
+      .column(span="row")
       each moreValue in more.contentList
         p.description-text=moreValue
 
   .column(span="row")
     each content in data.about.newContent
+      .column(span="row" height="30")
       h2.sub-title=content.title
       .column(span="row" height="30-hr")
       p.description-text=content.contentList
 
   .column(span="row")
     each qualified in data.about.qualifiedList
+      .column(span="row" height="30")
       h2.sub-title=qualified.title
       .column(span="row" height="30-hr")
+      .column(span="row")
       p.description-text=qualified.contentList
 
   .column(span="row")
   each list in data.about.unorderedList
-    .column(span="row")
-        .list-title=list.title
+    //- .column(span="row" height="30")
+    .column(span="row" )
+        h2.sub-title=list.title
+          .column( height="30-hr")
           each listValue in list.listItem
             .column(span="row")
               ul

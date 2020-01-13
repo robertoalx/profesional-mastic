@@ -9,6 +9,14 @@
     ]
   }
 ],
+  "newContent": [
+  {
+    "title": "Abseiling",
+    "contentList": [
+      "All our rope access technicians are fully qualified, fully insured and professional in mastic instalation."
+    ]
+  }
+],
   "qualifiedList": [
   {
     "title": "Structural glazing sealant",
@@ -17,17 +25,9 @@
     ]
   }
 ],
-  "newContent": [
-  {
-    "title": "Abseiling:",
-    "contentList": [
-      "All our rope access technicians are fully qualified, fully insured and professional in mastic instalation."
-    ]
-  }
-],
   "unorderedList": [
     {
-    "title": "Our exterior mastic services includes:",
+    "title": "Our exterior mastic services includes",
     "listItem": [
       "All brick work",
       "Curtain walling ",
@@ -43,7 +43,7 @@
     ]
   },
   {
-    "title": "Our interior mastic services includes:",
+    "title": "Our interior mastic services includes",
     "listItem": [
       "Curtain walling ",
       "All sanitary wares and fittings ",
