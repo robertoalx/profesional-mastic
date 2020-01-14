@@ -28,7 +28,8 @@ block content
 
   each project in data.home.project
     .column(textalign="center")
-      img.image-100(src=`${baseUrl}${project.src}`, alt=project.title)
+      a(href=project.link)
+        img.image-100(src=`${baseUrl}${project.src}`, alt=project.title)
       a(href=project.link).link-title=project.title
 
   .column(span="row")

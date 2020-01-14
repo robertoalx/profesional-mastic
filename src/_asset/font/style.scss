@@ -3,9 +3,9 @@
 @font-face {
   font-family: '#{$icomoon-font-family}';
   src:
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?d06r3x') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?d06r3x') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?d06r3x##{$icomoon-font-family}') format('svg');
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?dxxu3s') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?dxxu3s') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?dxxu3s##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,9 +26,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon__search {
+  &:before {
+    content: $icon__search2; 
+  }
+}
 .icon__menu {
   &:before {
     content: $icon__menu; 
+  }
+}
+.icon__point-down {
+  &:before {
+    content: $icon__point-down; 
+  }
+}
+.icon__arrow-down {
+  &:before {
+    content: $icon__arrow-down; 
+  }
+}
+.icon__menu7 {
+  &:before {
+    content: $icon__menu7; 
   }
 }
 .icon__cross {
@@ -66,4 +86,8 @@
     content: $icon__linkedin; 
   }
 }
-
+.icon__enlarge {
+  &:before {
+    content: $icon__enlarge; 
+  }
+}
