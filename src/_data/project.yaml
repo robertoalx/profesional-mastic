@@ -37,7 +37,6 @@
   imagePath: asset/image/project/11-15-grosvenor-cresent/grosvenor-crescent-2.jpg
   title: 11-15 Grosvenor Cresent
   imageList:
-    - asset/image/project/11-15-grosvenor-cresent/Grosvenor-Crescent-2.jpg
     - asset/image/project/11-15-grosvenor-cresent/Grosvenor-Crescent-3.jpg
     - asset/image/project/11-15-grosvenor-cresent/Grosvenor-Crescent-4.jpg
     - asset/image/project/11-15-grosvenor-cresent/Grosvenor-Crescent-5.jpg
@@ -50,6 +49,12 @@
   title: 30 Cannon Street
   imageList:
     - asset/image/project/30-cannon-street/cannon-street.jpg
+    - asset/image/project/30-cannon-street/cannon-street-2.jpg
+    - asset/image/project/30-cannon-street/cannon-street-3.jpg
+    - asset/image/project/30-cannon-street/cannon-street-4.jpg
+    - asset/image/project/30-cannon-street/cannon-street-5.jpg
+    - asset/image/project/30-cannon-street/cannon-street-6.jpg
+    - asset/image/project/30-cannon-street/cannon-street-7.jpg
   descriptionList:
     - External and internal mastic installation on Glazing.
 
@@ -70,6 +75,9 @@
   imageList:
     - asset/image/project/chelsea-barracks/chelsea-barracks-1.jpg
     - asset/image/project/chelsea-barracks/chelsea-barracks-3.jpg
+    - asset/image/project/chelsea-barracks/chelsea-barracks-4.jpg
+    - asset/image/project/chelsea-barracks/chelsea-barracks-5.jpg
+    - asset/image/project/chelsea-barracks/chelsea-barracks-6.jpg
   title: Chelsea Barracks
   descriptionList:
     - In Development.
