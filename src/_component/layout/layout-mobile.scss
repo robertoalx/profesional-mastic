@@ -145,5 +145,12 @@ li.description-text {
 .product-image__list,
 .qualification-image__list {
   text-align: center;
+  
+  img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    float: left;
+    padding: 5px;
+  }
 }
 
