@@ -2,9 +2,10 @@ extends ../_component/layout/layout
 
 block config
   -
-    var metaTitle = 'About Us'
-    var metaDescription = 'About Profesional Mastic Applier'
-    var showBackButton = baseUrl
+    var metaTitle = 'About Us';
+    var metaDescription = 'About Profesional Mastic Applier';
+    var showBackButton = baseUrl;
+    var landingPage = 'About us';
 
 block content
   .column(span="row")
@@ -37,7 +38,7 @@ block content
 
   .column(span="row")
   each list in data.about.unorderedList
-    //- .column(span="row" height="30")
+    .column(span="row" height="30")
     .column(span="row" )
         h2.sub-title=list.title
           .column( height="30-hr")
