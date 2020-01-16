@@ -2,9 +2,12 @@ extends _component/layout/layout
 
 block config
   -
-    var metaTitle = 'Profesional Mastic Applier in London and UK'
-    var metaDescription = 'Interior and Exterior mastic applier in London and UK. A choice that makes the difference.'
-    var showBackButton = ''
+    var metaTitle = 'Profesional Mastic Applier in London and UK';
+    var metaDescription = 'Interior and Exterior mastic applier in London and UK. A choice that makes the difference.';
+    var showBackButton = '';
+    var landingPage = 'Home';
+
+
 
 block content
   .column(span="row")
@@ -33,10 +36,22 @@ block content
       a(href=project.link).link-title=project.title
 
   .column(span="row")
-    h2.sub-title Products
-  .column(span="row" height="30-hr")
-  .column(span="row")
-    .product-image__list
-      each product in Array.from({ length: 16 }, (_, k) => k + 1)
-        .product-image
+    each product in data.home.productList
+      h2.sub-title=product.title
+      .column(span="row" height="30-hr")
+      .column(span="row")
+        each productValue in product.imagePathList
+          .product-image__list
+            img(src=productValue.src, alt=productValue.alt)
+    //-   each product in Array.from({ length: 16 }, (_, k) => k + 1)
+    //-     .product-image
 
+  .column(span="row" height="30")
+  .column(span="row" )
+    each qualification in data.home.qualificationList
+      h2.sub-title=qualification.title
+      .column(span="row" height="30-hr")
+      .column(span="row")
+        each qualificationValue in qualification.imagePathList
+          .qualification-image__list
+            img(src=qualificationValue.src, alt=qualificationValue.alt)

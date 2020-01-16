@@ -78,14 +78,16 @@
   transition: 250ms;
   display: flex;
   flex-direction: column;
+
+
+  a {
+    line-height: 40px;
+    padding: 0 1.6rem;
+    color: white;
+    text-decoration: none;
+  }
 }
 
-.menu__item {
-  line-height: 40px;
-  padding: 0 1.6rem;
-  color: white;
-  text-decoration: none;
-}
 
 a.menu__disc {
   text-decoration: none;
