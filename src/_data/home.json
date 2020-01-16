@@ -28,5 +28,83 @@
     {
       "content": "We provide a high quality service in all projects we undertake."
     }
+  ],
+  "productList": [
+    {
+      "title": "Products",
+      "imagePathList" : [
+        {
+          "src": "asset/image/product/arbo.jpg",
+          "alt": "Arbo"
+        },
+        {
+          "src": "asset/image/product/dow.jpg",
+          "alt": "Dow Corning"
+        },
+        {
+          "src": "asset/image/product/dowsil.jpg",
+          "alt": "Dowsil"
+        },
+        {
+          "src": "asset/image/product/fosroc.jpg",
+          "alt": "Fosroc"
+        },
+        {
+          "src": "asset/image/product/geocel.jpg",
+          "alt": "Geocel"
+        },
+        {
+          "src": "asset/image/product/otto.jpg",
+          "alt": "Otto"
+        },
+        {
+          "src": "asset/image/product/sika.jpg",
+          "alt": "Sika"
+        }
+      ]
+    }
+  ],
+  "qualificationList": [
+    {
+      "title": "Qualifications",
+      "imagePathList" : [
+        {
+          "src": "asset/image/qualification/ukata.jpg",
+          "alt": "Ukata"
+        },
+        {
+          "src": "asset/image/qualification/coshh.jpg",
+          "alt": "Goshh"
+        },
+        {
+          "src": "asset/image/qualification/hs.jpg",
+          "alt": "H"
+        },
+        {
+          "src": "asset/image/qualification/ipaf.jpg",
+          "alt": "Ipaf"
+        },
+        {
+          "src": "asset/image/qualification/irata.jpg",
+          "alt": "Irata"
+        },
+        {
+          "src": "asset/image/qualification/citb.jpg",
+          "alt": "Citb SMSTS"
+        },
+        {
+          "src": "asset/image/qualification/citbss.jpg",
+          "alt": "Citbs SSSTS"
+        },
+        {
+          "src": "asset/image/qualification/cpd.jpg",
+          "alt": "CPD Certified"
+        },
+        {
+          "src": "asset/image/qualification/cts.jpg",
+          "alt": "CTS LTD"
+        }
+      ]
+    }
   ]
 }
