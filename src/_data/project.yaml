@@ -5,7 +5,7 @@
     - asset/image/project/nova-victoria-building-5/nova-victoria-building2.jpg
     - asset/image/project/nova-victoria-building-5/nova-victoria-building3.jpg
 
-  title: Nova Victoria Building 5
+  title: Nova Victoria - Building 5 London
   descriptionList:
     - Internal mastic installation on Skirtings and Marble.
 
@@ -17,7 +17,7 @@
     - asset/image/project/135-bishops-gate/135-bishop-3.jpg
     - asset/image/project/135-bishops-gate/135-bishop-4.jpg
     - asset/image/project/135-bishops-gate/135-bishop-5.jpg
-  title: 135 Bishops Gate
+  title: 135 Bishops Gate London
   descriptionList:
     - In Development.
     - External mastic installation on Roofs, Terraces and Cladding.
@@ -29,13 +29,13 @@
     - asset/image/project/undershaft/undershaft-2.jpg
     - asset/image/project/undershaft/undershaft-3.jpg
     - asset/image/project/undershaft/undershaft-4.jpg
-  title: Undershaft
+  title: Undershaft London
   descriptionList:
     - External and internal mastic installation on Curtain Walling.
 
 - link: "project/11-15-grosvenor-cresent"
   imagePath: asset/image/project/11-15-grosvenor-cresent/grosvenor-crescent-2.jpg
-  title: 11-15 Grosvenor Cresent
+  title: 11-15 Grosvenor Cresent London
   imageList:
     - asset/image/project/11-15-grosvenor-cresent/Grosvenor-Crescent-3.jpg
     - asset/image/project/11-15-grosvenor-cresent/Grosvenor-Crescent-4.jpg
@@ -46,7 +46,7 @@
 
 - link: "project/30-cannon-street"
   imagePath: asset/image/project/30-cannon-street/cannon-street-1.jpg
-  title: 30 Cannon Street
+  title: 30 Cannon Street London
   imageList:
     - asset/image/project/30-cannon-street/cannon-street.jpg
     - asset/image/project/30-cannon-street/cannon-street-2.jpg
@@ -66,7 +66,7 @@
     - asset/image/project/american-school/american-school-3.jpg
     - asset/image/project/american-school/american-school-4.jpg
     - asset/image/project/american-school/american-school-5.jpg
-  title: American School
+  title: American School London
   descriptionList:
     - External and internal mastic installation on Curtain Walling and roof.
   
@@ -78,7 +78,7 @@
     - asset/image/project/chelsea-barracks/chelsea-barracks-4.jpg
     - asset/image/project/chelsea-barracks/chelsea-barracks-5.jpg
     - asset/image/project/chelsea-barracks/chelsea-barracks-6.jpg
-  title: Chelsea Barracks
+  title: Chelsea Barracks London
   descriptionList:
     - In Development.
     - Internal mastic installation on Skirtings, Marble and all Sanitary.
@@ -88,7 +88,7 @@
   imageList:
     - asset/image/project/kensington-row/kensington-row-1.jpg
     - asset/image/project/kensington-row/kensington-row-3.jpg
-  title: Kensington Row
+  title: Kensington Row London
   descriptionList:
     - External and internal mastic installation on Curtain Walling, Stone and Cladding.
 
@@ -97,7 +97,7 @@
   imageList:
     - asset/image/project/lancon-house/lancon-1.jpg
     - asset/image/project/lancon-house/lancon-2.jpg
-  title: Lancon House
+  title: Lancon House London
   descriptionList:
     - External and internal mastic installation on Curtain Walling and Cladding.
 
@@ -107,7 +107,7 @@
     - asset/image/project/lillie-square/lillie-square-1.jpg
     - asset/image/project/lillie-square/lillie-square-2.jpg
     - asset/image/project/lillie-square/lillie-square.jpg
-  title: Lillie Square
+  title: Lillie Square London
   descriptionList:
     - External mastic installation on Curtain Walling and Coppings.
 
@@ -118,7 +118,7 @@
     - asset/image/project/one-tower-bridge-building-5/one-tower-2.jpg
     - asset/image/project/one-tower-bridge-building-5/one-tower-3.jpg
     - asset/image/project/one-tower-bridge-building-5/one-tower-4.jpg
-  title: One Tower Bridge Building 5
+  title: One Tower Bridge Building 5 London
   descriptionList:
     - External and internal mastic installation on curtain walling.
 
@@ -127,7 +127,7 @@
   imageList:
     - asset/image/project/one-finsbury-circus/finsbury-circus-1.jpg
     - asset/image/project/one-finsbury-circus/finsbury-circus-2.jpg
-  title: One Finsbury Circus
+  title: One Finsbury Circus London
   descriptionList:
     - External mastic installation on roof.
 
@@ -135,7 +135,7 @@
   imagePath: asset/image/project/river-walk/river-walk-3.jpg
   imageList:
     - asset/image/project/river-walk/river-walk-1.jpg
-  title: River Walk
+  title: River Walk London
   descriptionList:
     - External mastic installation on Curtain Walling.
 
@@ -153,13 +153,13 @@
   imageList:
     - asset/image/project/tottenham-court-road/tottenham-2.jpg
     - asset/image/project/tottenham-court-road/tottenham-3.jpg
-  title: Tottenham Court Road
+  title: Tottenham Court Road London
   descriptionList:
     - External mastic installation on Curtain Walling.
 
 - link: "project/1-harman-boulevard-manchester"
   imagePath: asset/image/project/1-harman-boulevard-manchester/main-harman-boulevard.jpg
-  title: 1 Harman Boulevard Banchester
+  title: 1 Harman Boulevard Manchester
   imageList:
     - asset/image/project/1-harman-boulevard-manchester/harman-boulevard-1.jpg
     - asset/image/project/1-harman-boulevard-manchester/harman-boulevard-2.jpg
@@ -181,7 +181,7 @@
     - asset/image/project/thomas-more/thomas-more.jpg
     - asset/image/project/thomas-more/thomas-more1.jpg
     - asset/image/project/thomas-more/thomas-more2.jpg
-  title: Thomas More
+  title: Thomas More London
   descriptionList:
     - External and internal mastic installation on Cladding and Stone.
 
