@@ -106,5 +106,24 @@
         }
       ]
     }
+  ],
+  "accreditationList": [
+    {
+      "title": "Accredtiation",
+      "imagePathList" : [
+        {
+          "src": "asset/image/accreditation/smas.jpg",
+          "alt": "Ukata"
+        },
+        {
+          "src": "asset/image/accreditation/ssip.jpg",
+          "alt": "Goshh"
+        },
+        {
+          "src": "asset/image/accreditation/trustpilot.jpg",
+          "alt": "H"
+        }
+      ]
+    }
   ]
 }
