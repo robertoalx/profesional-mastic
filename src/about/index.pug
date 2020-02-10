@@ -25,8 +25,11 @@ block content
     each content in data.about.newContent
       .column(span="row" height="30")
       h2.sub-title=content.title
-      .column(span="row" height="30-hr")
-      p.description-text=content.contentList
+        .column(height="30-hr")
+        each contentValue in content.contentList
+          .column(span="row")
+            ul
+              li.description-text=contentValue
 
   .column(span="row")
     each qualified in data.about.qualifiedList
@@ -41,7 +44,7 @@ block content
     .column(span="row" height="30")
     .column(span="row" )
         h2.sub-title=list.title
-          .column( height="30-hr")
+          .column(height="30-hr")
           each listValue in list.listItem
             .column(span="row")
               ul

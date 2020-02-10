@@ -40,7 +40,8 @@
   }
 
   div.product-image__list,
-  div.qualification-image__list {
+  div.qualification-image__list,
+  div.accreditation-image__list {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     float: left;
