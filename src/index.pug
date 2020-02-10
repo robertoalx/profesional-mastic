@@ -55,3 +55,13 @@ block content
         each qualificationValue in qualification.imagePathList
           .qualification-image__list
             img(src=qualificationValue.src, alt=qualificationValue.alt)
+
+  .column(span="row" height="30")
+  .column(span="row" )
+    each accreditation in data.home.accreditationList
+      h2.sub-title=accreditation.title
+      .column(span="row" height="30-hr")
+      .column(span="row")
+        each accreditationValue in accreditation.imagePathList
+          .accreditation-image__list
+            img(src=accreditationValue.src, alt=accreditationValue.alt)
