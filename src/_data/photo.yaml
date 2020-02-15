@@ -1,5 +1,3 @@
-- imagePath: asset/image/photo/should-be-5.jpg
-  title: Professional Mastic Apllier
 
 - imagePath: asset/image/photo/1.jpg
   title: Professional Mastic Apllier
@@ -13,7 +11,10 @@
 - imagePath: asset/image/photo/4.jpg
   title: Professional Mastic Apllier
 
-- imagePath: asset/image/photo/5.jpg
+- imagePath: asset/image/photo/should-be-5.jpg
+  title: Professional Mastic Apllier
+
+- imagePath: asset/image/photo/should-be-6.jpg
   title: Professional Mastic Apllier
 
 - imagePath: asset/image/photo/6.jpg
@@ -196,13 +197,7 @@
 - imagePath: asset/image/photo/c.jpg
   title: Professional Mastic Apllier
 
-- imagePath: asset/image/photo/d.jpg
-  title: Professional Mastic Apllier
-
 - imagePath: asset/image/photo/e.jpg
-  title: Professional Mastic Apllier
-
-- imagePath: asset/image/photo/f.jpg
   title: Professional Mastic Apllier
 
 - imagePath: asset/image/photo/g.jpg
@@ -221,9 +216,6 @@
   title: Professional Mastic Apllier
 
 - imagePath: asset/image/photo/l.jpg
-  title: Professional Mastic Apllier
-
-- imagePath: asset/image/photo/m.jpg
   title: Professional Mastic Apllier
 
 - imagePath: asset/image/photo/n.jpg
@@ -293,7 +285,4 @@
   title: Professional Mastic Apllier
 
 - imagePath: asset/image/photo/59.jpg
-  title: Professional Mastic Apllier
-
-- imagePath: asset/image/photo/should-be-6.jpg
   title: Professional Mastic Apllier
