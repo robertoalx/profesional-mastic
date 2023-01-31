@@ -1,3 +1,33 @@
+- link: "project/damac-tower-london"
+  imagePath: asset/image/project/damac-tower-london/main-damac.jpeg
+  imageList:
+    - asset/image/project/damac-tower-london/damac-1.jpeg
+    - asset/image/project/damac-tower-london/damac-2.jpeg
+    - asset/image/project/damac-tower-london/damac-3.jpeg
+    - asset/image/project/damac-tower-london/damac-4.jpeg
+    - asset/image/project/damac-tower-london/damac-5.jpeg
+    - asset/image/project/damac-tower-london/damac-6.jpeg
+    - asset/image/project/damac-tower-london/damac-7.jpeg
+    - asset/image/project/damac-tower-london/damac-8.jpeg
+    - asset/image/project/damac-tower-london/damac-9.jpeg
+    - asset/image/project/damac-tower-london/damac-10.jpeg
+    - asset/image/project/damac-tower-london/damac-11.jpeg
+
+  title: Damac Tower London
+  descriptionList:
+    - Interior sealant installation 
+
+- link: "project/paddigton-square-london"
+  imagePath: asset/image/project/paddigton-square-london/main-paddigton-square.jpeg
+  imageList:
+    - asset/image/project/paddigton-square-london/paddigton-square-1.jpeg
+    - asset/image/project/paddigton-square-london/paddigton-square-2.jpeg
+    - asset/image/project/paddigton-square-london/paddigton-square-3.jpeg
+
+  title: Paddigton Square London
+  descriptionList:
+    - Interior sealant installation 
+
 - link: "project/nova-victoria-building-5"
   imagePath: asset/image/project/nova-victoria-building-5/main-nova-victoria-building.jpg
   imageList:

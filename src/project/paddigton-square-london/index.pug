@@ -1,0 +1,15 @@
+extends ../../_component/layout/layout
+
+block config
+  -
+    var metaTitle = 'Paddigton Square London'
+    var metaDescription = 'Project Description Paddigton Square London'
+    var showBackButton = `${baseUrl}project`
+
+block content
+  .column(span="row")
+    .paddigton-page
+  -
+    var currentLink = 'project/paddigton-square-london'
+    var pageInfo = data.project.filter(nooo => nooo.link === currentLink)[0]
+  include ../../_component/product-description/product-description

@@ -12,15 +12,17 @@
     "deploy": "gulp build --production --lang=en && gulp deploy --production && gulp clean:ghpages --production",
     "release": "standard-version",
     "update": "git pull && npm run prod",
-    "test": "jest"
+    "test": "jest",
+    "install:normal": "npm run i --ignore-scripts",
+    "reset-git": "echo \"Reset Git\" && rm -rf .git && git init && git add . && git commit -m \"From Zero to Hired with wowdop.com\""
   },
   "//": "CUSTOM CONFIGURATION",
   "installConfig": {
-    "pnp": true
+    "pnp": false
   },
   "config": {
     "customUrl": "http://professionalmasticapplier.uk",
-    "githubUrl": "http://github.com/codetapacademy/my-first-client-with-robert-and-marian.git",
+    "githubUrl": "http://github.com/robertoalx/profesional-mastic.git",
     "deployToGithubIo": false,
     "directory": {
       "development": "tmp",
@@ -90,10 +92,15 @@
     "@babel/preset-stage-0": "7.0.0",
     "@babel/preset-stage-1": "7.0.0",
     "@babel/register": "7.5.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/stream": "^2.0.0",
     "autoprefixer": "9.6.2",
+    "babel": "^6.23.0",
     "babel-eslint": "10.0.3",
     "babel-loader": "8.0.6",
-    "browser-sync": "2.26.7",
+    "browser-sync": "2.23.7",
     "bs-eslint-message": "0.0.3",
     "bulma": "^0.8.0",
     "chalk": "2.4.2",
@@ -116,13 +123,10 @@
     "gulp-notify": "^3.2.0",
     "gulp-plumber": "1.2.1",
     "gulp-postcss": "8.0.0",
-    "gulp-pug": "4.0.1",
     "gulp-rename": "1.4.0",
-    "gulp-sass": "4.0.2",
     "gulp-sass-variables": "1.2.0",
-    "gulp-sourcemaps": "2.6.5",
+    "gulp-sourcemaps": "^3.0.0",
     "imagemin-gifsicle": "6.0.1",
-    "imagemin-jpegoptim": "^6.0.0",
     "imagemin-jpegtran": "6.0.0",
     "imagemin-optipng": "7.1.0",
     "imagemin-pngquant": "8.0.0",
@@ -133,7 +137,14 @@
     "merge-stream": "2.0.0",
     "minimist": "1.2.0",
     "pngquant-bin": "5.0.2",
-    "standard-version": "7.0.0"
+    "rollup": "^2.52.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-pug": "^5.0.0",
+    "sass": "^1.34.1",
+    "standard-version": "^9.3.0"
+  }
 }

@@ -21,15 +21,15 @@ block content
       each moreValue in more.contentList
         p.description-text=moreValue
 
-  .column(span="row")
-    each content in data.about.newContent
-      .column(span="row" height="30")
-      h2.sub-title=content.title
-        .column(height="30-hr")
-        each contentValue in content.contentList
-          .column(span="row")
-            ul
-              li.description-text=contentValue
+  //- .column(span="row")
+  //-   each content in data.about.newContent
+  //-     .column(span="row" height="30")
+  //-     h2.sub-title=content.title
+  //-       .column(height="30-hr")
+  //-       each contentValue in content.contentList
+  //-         .column(span="row")
+  //-           ul
+  //-             li.description-text=contentValue
 
   .column(span="row")
     each qualified in data.about.qualifiedList

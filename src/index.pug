@@ -26,15 +26,15 @@ block content
 
   .column(span="row" height="30")
 
-  .column(span="row")
-    h2.sub-title Projects
-  .column(span="row" height="30-hr")
+  //- .column(span="row")
+  //-   h2.sub-title Projects
+  //- .column(span="row" height="30-hr")
 
-  each project in data.home.project
-    .column(textalign="center")
-      a(href=project.link)
-        img.image-100(src=`${baseUrl}${project.src}`, alt=project.title)
-      a(href=project.link).link-title=project.title
+  //- each project in data.home.project
+  //-   .column(textalign="center")
+  //-     a(href=project.link)
+  //-       img.image-100(src=`${baseUrl}${project.src}`, alt=project.title)
+  //-     a(href=project.link).link-title=project.title
 
   .column(span="row")
     each accreditation in data.home.accreditationList

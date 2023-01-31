@@ -60,6 +60,18 @@
         {
           "src": "asset/image/product/sika.jpg",
           "alt": "Sika"
+        },
+        {
+          "src": "asset/image/product/ever-build.jpg",
+          "alt": "ever build"
+        },
+        {
+          "src": "asset/image/product/evt.jpg",
+          "alt": "Evt"
+        },
+        {
+          "src": "asset/image/product/mapei.jpg",
+          "alt": "Mapei"
         }
       ]
     }
@@ -97,12 +109,12 @@
           "alt": "Citbs SSSTS"
         },
         {
-          "src": "asset/image/qualification/cpd.jpg",
-          "alt": "CPD Certified"
+          "src": "asset/image/qualification/pro-qual.jpg",
+          "alt": "Pro Qual"
         },
         {
-          "src": "asset/image/qualification/cts.jpg",
-          "alt": "CTS LTD"
+          "src": "asset/image/qualification/pearson.jpg",
+          "alt": "Pearson"
         }
       ]
     }
@@ -118,6 +130,14 @@
         {
           "src": "asset/image/accreditation/ssip.jpg",
           "alt": "Goshh"
+        },
+        {
+          "src": "asset/image/accreditation/chas.jpg",
+          "alt": "Chas"
+        },
+        {
+          "src": "asset/image/accreditation/chas1.jpg",
+          "alt": "Chas"
         },
         {
           "src": "asset/image/accreditation/trustpilot.jpg",

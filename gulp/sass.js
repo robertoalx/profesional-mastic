@@ -28,7 +28,7 @@ const sass = ({
     cssPath = [
       `./${dir.source}/**/*.{scss,sass}`,
       `!./${dir.source}/**/\_*.{scss,sass}`
-    ]
+    ];
   }
 
   // Compile sass
@@ -48,7 +48,7 @@ const sass = ({
         $baseUrl: baseUrl
       }))
       .pipe(plugins.sourcemaps.init())
-      .pipe(plugins.sass({
+      .pipe(plugins.dartSass({
         outputStyle: args.production ? 'compressed' : 'expanded',
         precision: 10,
         sync: true,
@@ -70,7 +70,7 @@ const sass = ({
       .pipe(plugins.postcss([
         autoprefixer({
           // turn off notification for IE grid support
-          grid: false
+          grid: false,
         })
       ]))
 

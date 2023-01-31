@@ -1,0 +1,15 @@
+extends ../../_component/layout/layout
+
+block config
+  -
+    var metaTitle = 'Damac Tower London'
+    var metaDescription = 'Project Description Damac Tower London'
+    var showBackButton = `${baseUrl}project`
+
+block content
+  .column(span="row")
+    .damac-page
+  -
+    var currentLink = 'project/damac-tower-london'
+    var pageInfo = data.project.filter(nooo => nooo.link === currentLink)[0]
+  include ../../_component/product-description/product-description
