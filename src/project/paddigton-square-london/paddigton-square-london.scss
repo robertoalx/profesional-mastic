@@ -1,7 +1,0 @@
-.paddigton-page {
-  @extend %landing-image;
-
-  &::after {
-    background-image: url(#{$baseUrl}asset/image/project/paddigton-square-london/main-paddigton-square.jpeg);
-  }
-}

@@ -1,7 +1,0 @@
-.tottenham-page {
-  @extend %landing-image;
-
-  &::after {
-    background-image: url(#{$baseUrl}asset/image/project/tottenham-court-road/tottenham-1.jpg);
-  }
-}

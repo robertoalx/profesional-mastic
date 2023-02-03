@@ -1,8 +1,0 @@
-.lancon-page {
-  @extend %landing-image;
-
-  &::after {
-    background-image: url(#{$baseUrl}asset/image/project/lancon-house/main-lancon-3.jpg);
-  }
-}
-

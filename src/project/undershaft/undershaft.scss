@@ -1,7 +1,0 @@
-.undershaft-page {
-  @extend %landing-image;
-
-  &::after {
-    background-image: url(#{$baseUrl}asset/image/project/undershaft/main-1-Undershaft-4.jpg);
-  }
-}

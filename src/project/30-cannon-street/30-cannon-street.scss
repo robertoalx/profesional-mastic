@@ -1,7 +1,0 @@
-.cannon-page {
-  @extend %landing-image;
-
-  &::after {
-    background-image: url(#{$baseUrl}asset/image/project/30-cannon-street/cannon-street-2.jpg);
-  }
-}

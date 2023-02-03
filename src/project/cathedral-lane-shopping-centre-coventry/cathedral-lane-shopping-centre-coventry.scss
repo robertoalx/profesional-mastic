@@ -1,7 +1,0 @@
-.cathedral-page {
-  @extend %landing-image;
-
-  &::after {
-    background-image: url(#{$baseUrl}asset/image/project/cathedral-lane-shopping-centre-coventry/main-coventry.jpg);
-  }
-}

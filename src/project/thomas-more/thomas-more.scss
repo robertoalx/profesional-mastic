@@ -1,7 +1,0 @@
-.thomas-page {
-  @extend %landing-image;
-
-  &::after {
-    background-image: url(#{$baseUrl}asset/image/project/thomas-more/main-thomas-more3.jpg);
-  }
-}

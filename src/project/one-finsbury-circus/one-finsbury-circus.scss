@@ -1,7 +1,0 @@
-.finsbury-page {
-  @extend %landing-image;
-
-  &::after {
-    background-image: url(#{$baseUrl}asset/image/project/one-finsbury-circus/main-roofs-6-finsbury.jpg);
-  }
-}

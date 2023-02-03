@@ -1,7 +1,0 @@
-.grosvenor-page {
-  @extend %landing-image;
-
-  &::after {
-    background-image: url(#{$baseUrl}asset/image/project/11-15-grosvenor-cresent-2/grosvenor-crescent-3.jpg);
-  }
-} 

@@ -1,7 +1,0 @@
-.damac-page {
-  @extend %landing-image;
-
-  &::after {
-    background-image: url(#{$baseUrl}asset/image/project/damac-tower-london/main-damac.jpeg);
-  }
-}

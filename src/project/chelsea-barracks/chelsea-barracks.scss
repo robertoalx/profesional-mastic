@@ -1,7 +1,0 @@
-.chelsea-page {
-  @extend %landing-image;
-
-  &::after {
-    background-image: url(#{$baseUrl}asset/image/project/chelsea-barracks/main-chelsea-barracks-2.jpg);
-  }
-}

@@ -1,7 +1,0 @@
-.bishop-page {
-  @extend %landing-image;
-
-  &::after {
-    background-image: url(#{$baseUrl}asset/image/project/135-bishops-gate/main-bishop.jpg);
-  }
-}

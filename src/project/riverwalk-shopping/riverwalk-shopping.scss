@@ -1,7 +1,0 @@
-.riverwalk-shopping {
-  @extend %landing-image;
-
-  &::after {
-    background-image: url(#{$baseUrl}asset/image/project/riverwalk-shopping/riverwalk-shopping-main.jpg);
-  }
-}
